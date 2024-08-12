@@ -1,0 +1,97 @@
+/* // Screen Size All mobile check */
+@media (max-width: 575px) {
+    .img-1 img {
+        visibility: hidden;
+        position: absolute;
+    }
+    .bo-1 img {
+        width: 100px;
+       
+    }
+
+    .form {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: auto;
+        width: 80vw;
+        align-items: center;
+    }
+
+    .container-6 {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .card p {
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .card h4 {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    body {
+        text-align: center;
+    }
+
+    .container-2 p {
+        font-size: 14px;
+
+    }
+    .box img {
+        width: 30px;
+    }
+    .bo-1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .form img {
+        /* gap: 10px; */
+        width: 40px;
+
+    }
+
+
+}
+
+/* // Screen Size 576px check */
+@media (max-width: 767px) {
+    .img-1 img {
+        visibility: hidden;
+        position: absolute;
+    }
+
+    .form {
+        position: relative;
+    }
+
+    .form img {
+        /* gap: 10px; */
+        width: 40px;
+
+    }
+
+    .box img {
+        width: 30px;
+    }
+    .bo-1 img {
+        width: 100px;
+       
+    }
+
+}
+
+@media (max-width: 1920px) {
+    .container-1 {
+        width: 90vw;
+        margin: auto;
+    }
+}
